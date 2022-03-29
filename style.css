@@ -1,0 +1,215 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header-img{
+    position: relative;
+    width:100vw;
+    height:600px;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width:100vw;
+    height:60px;
+}
+.nav-menu{
+    width:60vw;
+    height:60px;
+}
+.zomato{
+    display: block;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    font-size: 68px;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-flex{
+    margin-top: 100px;
+}
+.frst-heading{
+    color: white;
+}
+.nav-link{
+    border-bottom: 0px solid black;
+    transition: border-bottom 0.3s;
+    cursor: pointer;
+}
+.nav-link:hover{
+    border-bottom: 5px solid white;
+}
+.search-box{
+    width:30vw;
+    height:60px;
+    background-color: white;
+    border:none;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    outline:none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.search-btn{
+    width: 130px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#second-section{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.card{
+    width:100%;
+    height:200px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ccc;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px #000;
+    cursor:pointer;
+}
+.card-bottom{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 150px;
+}
+#popular-locations{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.popular-heading{
+    font-size: 40px;
+    color: black;
+}
+.locations-div{
+    width:100%;
+    height:60px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.locations-div:hover{
+    box-shadow: 1px 1px 5px #ccc;
+}
+#get-zomato-app{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(234, 241, 130, 0.1);
+}
+.email-input{
+    width:250px;
+    height: 40px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    outline:none;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+@media only screen and (max-width : 768px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+}
+.scndlast-body-link{
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    font-size: 17px;
+    line-height: 1.8;
+    margin-right: 1rem;
+    font-weight: 200;
+}
+.scndlast-body-link:hover{
+    color: #000;
+    text-decoration: none;
+}
+.scndlast-body-span{
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: rgb(130, 130, 130);
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: 0.35rem;
+}
+.collections-div{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 435px;
+    margin-top: 50px;
+}
+.collection-sect{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 120px;
+    margin-top: 277px;
+}
+.collection-div-sub{
+    position: relative;
+    max-width: 100%;
+    height: 32rem;
+    
+}
+.collection-images{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 271px;
+    height: 67%;
+}
+.footer{
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.footer-main-div{
+    
+    padding: 4.8rem 0px 2.2rem;
+    position: relative;
+    margin-top: 90px;
+}
+.footer-links{
+    display: inline-grid;
+}
+.footer-link-div{
+    width: fit-content;
+    margin-right: 80px;
+}
+.footer-link-maindiv{
+    display: flex;
+}
+.footer-a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    margin-bottom: 8px;
+}
+.footer-a:hover{
+    text-decoration: none;
+    color: black;
+}
